@@ -1,0 +1,6 @@
+version: 1.2
+workflows:
+   - subclass: wdl
+     primaryDescriptorPath: /verylargewdl.wdl
+     testParameterFiles:
+         - /verylargewdl.wdl.json
